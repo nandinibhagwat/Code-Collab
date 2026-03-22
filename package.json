@@ -1,0 +1,24 @@
+{
+  "name": "real-time-code-colab",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix frontend && npm install --prefix backend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArjunRai4/Real-time-CodeCollab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArjunRai4/Real-time-CodeCollab/issues"
+  },
+  "homepage": "https://github.com/ArjunRai4/Real-time-CodeCollab#readme",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
